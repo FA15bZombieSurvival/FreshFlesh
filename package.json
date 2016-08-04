@@ -1,0 +1,18 @@
+{
+  "name": "freshflesh",
+  "version": "0.0.1",
+  "description": "watch readme.md",
+  "main": "index.js",
+  "scripts": {
+	"start": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FA15bZombieSurvival/FreshFlesh.git"
+  },
+  "author": "M. Beile, J. Lüllmann, J. Bothe",
+  "bugs": {
+    "url": "https://github.com/FA15bZombieSurvival/FreshFlesh/issues"
+  },
+  "homepage": "https://github.com/FA15bZombieSurvival/FreshFlesh#readme"
+}
