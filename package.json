@@ -2,9 +2,9 @@
   "name": "freshflesh",
   "version": "0.0.1",
   "description": "watch readme.md",
-  "main": "app.js",
+  "main": "",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": ""
   },
   "repository": {
     "type": "git",
