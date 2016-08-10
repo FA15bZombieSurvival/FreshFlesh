@@ -9,8 +9,8 @@ Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io o
 
 
 #Technologien
-**NodeJS:** Serverseitige Plattform für Netzwerkanwendungen. Ermöglicht die Back-end Entwicklung für Webserver in JavaScript  
-**Express:** Bietet eine Erweiterung von NodeJS Features und zeichnet sich vorallem durch HTTP-Dienstprogrammmethoden und Middlewarefunktionen aus  
-**Node-mysql:** NodeJS Treiber für MySQL. Erlaubt Mehrfachanweisungen möglich  
-**Socket.io:** Bidirektionales Eventbasiertes Framework für Echtzeitkommunikation zwischen Server und Client  
-**AngularJS:** Clientseitiges JavaScript-Webframework für Webanwendungen nach MVVM Muster  
+**NodeJS:** Serverseitige Plattform für Netzwerkanwendungen. Ermöglicht die Back-end Entwicklung für Webserver in JavaScript
+**Express:** Bietet eine Erweiterung von NodeJS Features und zeichnet sich vorallem durch HTTP-Dienstprogrammmethoden und Middlewarefunktionen aus
+**Node-mysql:** NodeJS Treiber für MySQL. Erlaubt Mehrfachanweisungen möglich
+**Socket.io:** ´Bidirektionales Eventbasiertes Framework für Echtzeitkommunikation zwischen Server und Client
+**AngularJS:** Clientseitiges JavaScript-Webframework für Webanwendungen nach MVVM Muster
