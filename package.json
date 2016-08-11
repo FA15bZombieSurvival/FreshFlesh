@@ -4,7 +4,7 @@
   "description": "watch readme.md",
   "main": "",
   "scripts": {
-    "start": ""
+    "start": "node ./app.js"
   },
   "repository": {
     "type": "git",
