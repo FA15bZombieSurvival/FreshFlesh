@@ -4,7 +4,7 @@
 
 ### Network Tasks
 - Websocket Verbindung zwischen Client und Server
-- User-Sessions
+- User-Sessions(Cookies, ID-Zuweisung(Trennung Gast/Member))
 - User-Server real-time Datenübertragung
 
 ## Spielbezogene Aufgaben
@@ -12,14 +12,22 @@
 ### Game Logic Tasks
 - Game Loop mit Delta Wert für den Renderer
 - Game Renderer
-- Player
-- AI
+- Player(Movement, Werte, Skillen, Inventar, Angreifen(Verteidigen), Interagieren, Dashen)
+- AI(Movement, Werte, Skills, Angreifen/Verteidigen, Dropmechanik, Inventar?)
 
 ### Game Design Tasks
+- Game Welt (2D, Größe?, Mehrere Maps?, Mehrere Modi?(Survival, PVP, PVE, Teams), Objectives)
 - Story
-- Game Mechaniken
+- Game Mechaniken(Projektile als Weltobjekt, Fast-paced, Shopzone(Währung als Drop))
 - Sprites(Player, Zombies, Items, ...)
 - Tiles(Boden, Wasser, Grass, Kisten, Steine, ...)
+- Tile/Sprite Größe spezifizieren
+
+## Datenbankbezogene Aufgaben
+- Datenbank Design (ERM)
+- User Account DB
+- Player DB
+- Game Enviroment DB
 
 ## Websitebezogene Aufgaben
 
@@ -29,18 +37,18 @@
 - Datenbankanbindung
 - Player Chat
 - Highscore Tabelle(n)
-- User Profil
-- (Blog)?
+- User Profil(Nickname, Bild, Signature, Personal Best, Last Game, Charactersheet, Statistiken)
+- Shop for ingame stuff
+- (DevBlog)?
 
 ### Website Design Tasks
-- Base Layout
+- Base Layout(Navigation toggleable)
 - Logo
 - Favicon
-- Content(Startseite, Über uns, etc.)
+- Content(Startseite(Spiel), Über uns, Blog, Memberbereich)
 - Github Verknüpfung
 
 ## Diverse Aufgaben
-- Dokumentationen
 - Ausarbeitung
 - Marketing Konzepte
 - Präsentation
