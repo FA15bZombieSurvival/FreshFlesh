@@ -1,0 +1,21 @@
+{
+  "name": "freshflesh",
+  "description": "watch readme.md",
+  "main": "server.js",
+  "authors": [
+    "M. Beile",
+    "J. Lüllmann",
+    "J. Bothe"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/FA15bZombieSurvival/FreshFlesh",
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "jquery": "^3.1.1"
+  }
+}

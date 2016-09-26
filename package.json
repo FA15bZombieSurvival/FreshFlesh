@@ -4,7 +4,7 @@
   "description": "watch readme.md",
   "main": "",
   "scripts": {
-    "start": "node ./app.js"
+    "start": "node ./server.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +19,6 @@
     "angular": "^1.5.8",
     "debug": "~2.2.0",
     "express": "^4.14.0",
-    "node-mysql": "^0.4.2",
     "node-uuid": "^1.4.7",
     "socket.io": "^1.4.8"
   }
