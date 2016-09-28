@@ -32,6 +32,7 @@
 ## Websitebezogene Aufgaben
 
 ### Website Logic Tasks
+- Angular routing with ui-router (DONE for now)
 - Registrierung (Username, password, email)
 - Login
 - Datenbankanbindung
