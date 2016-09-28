@@ -6,40 +6,27 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FreshFlesh - Zombie Survival MMO</title>
 	<link rel="icon" href="./shared/images/favicon.png" type="image/png">
-    <link rel="stylesheet" href="./public/libs/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./shared/css/style.css"/>
+  <link rel="stylesheet" href="./public/libs/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./shared/css/style.css"/>
 </head>
 <body>
 
-    <nav class="navbar navbar-inverse" role="navigation">
-        <div class="navbar-header">
-            <a class="navbar-brand" ui-sref="#">FreshFlesh</a>
-        </div>
-        <ul class="nav navbar-nav">
-            <li><a ui-sref="home">Home</a></li>
-            <li><a ui-sref="about">About</a></li>
-        </ul>
-		<ul class="nav navbar-nav pull-right">
-            <li><a ui-sref="login">Login</a></li>
-            <li><a ui-sref="registration">Registration</a></li>
-        </ul>
-    </nav>
-
-    <div class="container">
-      <div ui-view></div>
-    </div>
+    <div ui-view="navigation"></div>
+	<div ui-view="content"></div>
+	<div ui-view="footer"></div>
 
 	<!-- External libraries-->
-    <script src="./public/libs/jquery/dist/jquery.min.js"></script>
-    <script src="./public/libs/angular/angular.min.js"></script>
-    <script src="./public/libs/angular-animate/angular-animate.min.js"></script>
+	<script src="./public/libs/jquery/dist/jquery.min.js"></script>
+	<script src="./public/libs/angular/angular.min.js"></script>
+	<script src="./public/libs/angular-animate/angular-animate.min.js"></script>
 	<script src="./public/libs/angular-touch/angular-touch.min.js"></script>
     <script src="./public/libs/angular-strap/dist/angular-strap.min.js"></script>
-    <script src="./public/libs/angular-strap/dist/angular-strap.tpl.min.js"></script>
-    <script src="./public/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="./public/libs/angular-strap/dist/angular-strap.tpl.min.js"></script>
+	<script src="./public/libs/angular-ui-router/release/angular-ui-router.min.js"></script>
 
 	<!-- Internal files -->
 	<script src="./app.js"></script>
+	<script src="./public/components/layout/layout.js"></script>
 	<script src="./public/components/home/home.js"></script>
 	<script src="./public/components/about/about.js"></script>
 	<script src="./public/components/login/login.js"></script>

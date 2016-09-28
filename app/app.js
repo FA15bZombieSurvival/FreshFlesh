@@ -6,10 +6,24 @@ app.config([
     function($stateProvider, $urlRouterProvider) {
 
         $stateProvider
+            /*.state("root", {
+                url: "",
+                views: {
+                    "navigation@root": {
+                        templateUrl: "public/components/navigation/navigation.html",
+                        controller: "NavigationCtrl"
+                    },
+                    "footer@root": {
+                        templateUrl: "public/components/footer/footer.html",
+                        controller: "FooterCtrl"
+                    }
+                }
+            })*/
             .state("home", {
                 url: "/home",
                 templateUrl: "public/components/home/home.html",
                 controller: "HomeCtrl"
+
             })
             .state("about", {
                 url: "/about",
