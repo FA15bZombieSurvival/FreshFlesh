@@ -1,6 +1,6 @@
 angular.module('freshflesh')
-    .controller('RegistrationCtrl', [
+    .controller('HomeCtrl', [
         '$scope',
         function($scope) {
-          $scope.test = 'Please register!';
+          $scope.test = 'Hello world!';
     }]);

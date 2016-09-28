@@ -32,7 +32,7 @@
 ## Websitebezogene Aufgaben
 
 ### Website Logic Tasks
-- Registrierung
+- Registrierung (Username, password, email)
 - Login
 - Datenbankanbindung
 - Player Chat
