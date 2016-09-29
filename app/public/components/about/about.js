@@ -2,5 +2,5 @@ angular.module('freshflesh')
     .controller('AboutCtrl', [
         '$scope',
         function($scope) {
-          $scope.test = 'Hello about!';
+          $scope.title = 'What this is all about!';
     }]);

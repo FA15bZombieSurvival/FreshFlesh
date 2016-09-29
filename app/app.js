@@ -26,7 +26,7 @@ app.config([
                   templateUrl: 'public/components/home/home.html',
                   controller: "HomeCtrl"
               }
-          }
+          } 
         })
         .state("root.about", {
             url: "/about",
@@ -56,6 +56,6 @@ app.config([
             }
         });
 
-        $urlRouterProvider.otherwise("home");
+        $urlRouterProvider.otherwise(".home");
     }
 ]);
