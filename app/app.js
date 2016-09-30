@@ -10,23 +10,27 @@ app.config([
           url: '',
           views: {
             'navigation': {
-              templateUrl: 'public/components/navigation/navigation.html',
-              controller: 'NavigationCtrl'
+                templateUrl: 'public/components/navigation/navigation.html',
+                controller: 'NavigationCtrl'
+            },
+            "content": {
+                templateUrl: 'public/components/home/home.html',
+                controller: "HomeCtrl"
             },
             'footer':{
-              templateUrl: 'public/components/footer/footer.html',
-              controller: 'FooterCtrl'
+                templateUrl: 'public/components/footer/footer.html',
+                controller: 'FooterCtrl'
             }
           }
         })
         .state('root.home', {
-          url: '/home',
-          views: {
-              "content@": {
-                  templateUrl: 'public/components/home/home.html',
-                  controller: "HomeCtrl"
-              }
-          } 
+            url: '/home',
+            views: {
+                "content@": {
+                    templateUrl: 'public/components/home/home.html',
+                    controller: "HomeCtrl"
+                }
+            }
         })
         .state("root.about", {
             url: "/about",
@@ -56,6 +60,6 @@ app.config([
             }
         });
 
-        $urlRouterProvider.otherwise(".home");
+        $urlRouterProvider.otherwise("home");
     }
 ]);
