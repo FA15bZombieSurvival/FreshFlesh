@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const jwt = require("express-jwt");
-const ProfileCtrl = //TODO require profile.js
+const ProfileCtrl = require("./api/controllers/profile.js");//TODO require profile.js
 
 var app = express();
 
