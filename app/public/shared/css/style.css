@@ -3,9 +3,12 @@ html {
     min-height: 100%;
 }
 body {
+    /* Padding top by navbar height */
+    padding-top:70px;
     /* Margin bottom by footer height */
     margin-bottom: 180px;
 }
+
 .footer {
     position: absolute;
     bottom: 0;

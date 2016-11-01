@@ -17,6 +17,12 @@ const bcrypt = require("bcryptjs");
 //Mongoose connection
 mongoose.connect("mongodb://127.0.0.1/freshflesh");
 
+//Models
+require("./app/api/models/user");
+
+//Config files
+require("./app/api/config/passport");
+
 //Server settings
 var app = express();
 app.set('port', process.env.PORT || 80);
@@ -31,6 +37,9 @@ app.listen(app.get('port'), function() {
   console.log('Express server listening on port ' + app.get('port'));
 });
 
+//Routes
+//app.use("/api", routesApi);
+
 var routes = require("./app/routes.js");
 app.use("/", routes);
 
@@ -39,6 +48,10 @@ app.get('*', function(req, res) {
 });
 
 app.use(function(err, req, res, next) {
-  console.error(err.stack);
-  res.send(500, { message: err.message });
+    if(err.name === "UnauthorizedError") {
+        res.status(401);
+        res.json({ "message": err.name + ": " + err.message});
+    }
+    console.error(err.stack);
+    res.send(500, { message: err.message });
 });
