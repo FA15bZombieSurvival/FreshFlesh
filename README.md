@@ -16,6 +16,12 @@ Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io o
 **Socket.io:** Bidirektionales Eventbasiertes Framework für Echtzeitkommunikation zwischen Server und Client  
 **AngularJS:** Clientseitiges JavaScript-Webframework für Webanwendungen nach MVVM Muster  
 
+##Installation:
+  - Clone the repository
+  - run npm install
+  - run bower install
+  - run node server.js
+
 +++++++++++++++++++++++++++++++++++
 
 #FreshFlesh
@@ -33,3 +39,9 @@ The game idea is based on some famouse .io titles like agar.io or cursors.io
 **Node-mysql:** A wrapper of the node.js mysql package to make it a bit easier to use  
 **Socket.io:** Socket.IO enables real-time bidirectional event-based communication  
 **AngularJS:** JavaScript-based open-source front-end web application framework. AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.  
+
+##Installation:
+  - Clone the repository
+  - run npm install
+  - run bower install
+  - run node server.js
