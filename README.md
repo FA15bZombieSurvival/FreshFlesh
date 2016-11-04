@@ -4,7 +4,7 @@
 
 FrischFleisch ist ein Multiplayer Survival Spiel, das im Rahmen des Mittelstufen Projektes der SZUT Bremen von einer 5 Mann großen Gruppe entwickelt wird.
 
-Vorgabe des Projektes ist es die Technologien NodeJS und AngularJS zu verwenden. Die restlichen Aspekte waren der Gruppe frei überlassen. 
+Vorgabe des Projektes ist es die Technologien NodeJS und AngularJS zu verwenden. Die restlichen Aspekte waren der Gruppe frei überlassen.
 Aus diesem Grund hat sich unsere Gruppe für ein Multiplayerspiel entschieden, um im Rahmen der Durchführung Networking und Server-side Applications kennenzulernen.
 
 Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io oder cursors.io.
@@ -17,12 +17,15 @@ Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io o
 **AngularJS:** Clientseitiges JavaScript-Webframework für Webanwendungen nach MVVM Muster  
 
 ##Installation:
-  - Clone the repository
-  - run npm install
-  - run bower install
-  - run node server.js
 
-+++++++++++++++++++++++++++++++++++
+Shell:
+  ```
+npm install
+bower install
+node server.js
+  ```
+
+---
 
 #FreshFlesh
 
@@ -41,7 +44,9 @@ The game idea is based on some famouse .io titles like agar.io or cursors.io
 **AngularJS:** JavaScript-based open-source front-end web application framework. AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.  
 
 ##Installation:
-  - Clone the repository
-  - run npm install
-  - run bower install
-  - run node server.js
+Shell:
+  ```
+npm install
+bower install
+node server.js
+  ```
