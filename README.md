@@ -20,6 +20,8 @@ Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io o
 
 Shell:
   ```
+git https://github.com/FA15bZombieSurvival/FreshFlesh.git freshflesh
+cd freshflesh
 npm install
 bower install
 node server.js
@@ -46,6 +48,8 @@ The game idea is based on some famouse .io titles like agar.io or cursors.io
 ##Installation:
 Shell:
   ```
+git https://github.com/FA15bZombieSurvival/FreshFlesh.git freshflesh
+cd freshflesh
 npm install
 bower install
 node server.js
