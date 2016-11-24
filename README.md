@@ -20,7 +20,7 @@ Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io o
 
 Shell:
   ```
-git https://github.com/FA15bZombieSurvival/FreshFlesh.git freshflesh
+git clone https://github.com/FA15bZombieSurvival/FreshFlesh.git freshflesh
 cd freshflesh
 npm install
 bower install
@@ -48,7 +48,7 @@ The game idea is based on some famouse .io titles like agar.io or cursors.io
 ##Installation:
 Shell:
   ```
-git https://github.com/FA15bZombieSurvival/FreshFlesh.git freshflesh
+git clone https://github.com/FA15bZombieSurvival/FreshFlesh.git freshflesh
 cd freshflesh
 npm install
 bower install
