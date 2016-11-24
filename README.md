@@ -12,9 +12,9 @@ Das Spiel orientiert sich unteranderem an diversen .io Titeln wie z.B. agar.io o
 #Technologien
 **NodeJS:** Serverseitige Plattform für Netzwerkanwendungen. Ermöglicht die Back-end Entwicklung für Webserver in JavaScript
 **Express:** Bietet eine Erweiterung von NodeJS Features und zeichnet sich vorallem durch HTTP-Dienstprogrammmethoden und Middlewarefunktionen aus  
-**Node-mysql:** NodeJS Treiber für MySQL. Erlaubt Mehrfachanweisungen möglich  
 **Socket.io:** Bidirektionales Eventbasiertes Framework für Echtzeitkommunikation zwischen Server und Client  
 **AngularJS:** Clientseitiges JavaScript-Webframework für Webanwendungen nach MVVM Muster  
+**MongoDB:** Beliebte NoSQL Datenbank
 
 ##Installation:
 
@@ -38,10 +38,10 @@ The game idea is based on some famouse .io titles like agar.io or cursors.io
 
 #Technologies
 **NodeJS:** Event-driven I/O server-side JavaScript environment based on V8  
-**Express:** Minimal and flexible Node.js web application framework with a myriad of HTTP utility methods and middleware  
-**Node-mysql:** A wrapper of the node.js mysql package to make it a bit easier to use  
+**Express:** Minimal and flexible Node.js web application framework with a myriad of HTTP utility methods and middleware 
 **Socket.io:** Socket.IO enables real-time bidirectional event-based communication  
 **AngularJS:** JavaScript-based open-source front-end web application framework. AngularJS extends HTML attributes with Directives, and binds data to HTML with Expressions.  
+**MongoDB:** Popular NoSQL Database.
 
 ##Installation:
 Shell:
